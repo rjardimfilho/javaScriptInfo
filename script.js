@@ -1,14 +1,7 @@
-'use strict'
-// Working with variables
-let admin
-let name = "John";
-admin = name;
-alert(admin);
-
-// Giving the rigth name
-let ourPlanetNme = earth;
-let currentUserName = "John";
-
-//Uppercase const?
-const BIRTHDAY = '18.04.1982'; //Ok, because the date of birthday is a known constant.
-constant AGE = someCode(BIRTHDAY); //Not ok to be UPPERCASE because age changes every year. 
+let name = "Ilya"; 
+// the expression is a number 1
+alert(`hello ${1}`); //hello 1 
+// the expression is a string "name"
+alert(`hello ${"name"}`) // hello name
+// the expression is a variable, embed it
+alert(`hello ${name}`) // hello Ilya
