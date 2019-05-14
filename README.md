@@ -1,0 +1,1 @@
+This is a repository to control changes on my studies from javaScriptInfo website.
